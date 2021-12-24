@@ -130,7 +130,7 @@ if __name__ == '__main__':
     output_paths = [os.path.join(output_dir, s) for s in input_files]
 
     t_finder = TripletFinder()
-    me_re = MeaningResolver(wikdict_fn = '{}/data/yicxu/wiktionary_new/wik_dict.json'.format(path_prefix))
+    me_re = MeaningResolver(wikdict_fn = '{}/data/kear/wik_dict.json'.format(path_prefix))
     max_num_relations = 5
 
     
